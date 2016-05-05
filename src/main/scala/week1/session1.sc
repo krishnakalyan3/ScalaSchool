@@ -9,11 +9,3 @@ val result = {
 
 // Since } +x is outside the scope it takes value 0
 
-def fact(x: Int): Int ={
-  def loop(acc : Int, n : Int) : Int=
-    if (n == 0) acc
-    else loop(acc * n, n-1)
-  loop(1,n)
-}
-
-fact(3)
