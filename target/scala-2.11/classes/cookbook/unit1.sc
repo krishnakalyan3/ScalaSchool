@@ -35,3 +35,4 @@ println(s"$name is $age is ${weight%.1f} is pounds")
 val out = f"$name, you weigh $weight%.0f pounds."
 s"foo\nbar"
 raw"foo\nbar"
+val upper = "hello world".map(x => x.toUpper)
